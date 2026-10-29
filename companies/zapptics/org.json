@@ -1,0 +1,658 @@
+{
+  "company": {
+    "name": "Zapptics",
+    "type": "Software and brand company",
+    "founder": "You (the human). Every gated action needs your explicit approval."
+  },
+  "departments": [
+    {
+      "id": "leadership",
+      "name": "Leadership",
+      "head": "chief-of-staff"
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "head": "cto"
+    },
+    {
+      "id": "product",
+      "name": "Product & Design",
+      "head": "product-manager"
+    },
+    {
+      "id": "brand",
+      "name": "Brand & Marketing",
+      "head": "brand-director"
+    },
+    {
+      "id": "customers",
+      "name": "Sales & Customers",
+      "head": "customer-success"
+    },
+    {
+      "id": "operations",
+      "name": "Operations",
+      "head": "operations-lead"
+    }
+  ],
+  "employees": [
+    {
+      "slug": "chief-of-staff",
+      "dept": "leadership",
+      "reports_to": "founder",
+      "title": "Chief of Staff",
+      "manifest": "manifests/chief-of-staff.hire.json"
+    },
+    {
+      "slug": "cto",
+      "dept": "leadership",
+      "reports_to": "chief-of-staff",
+      "title": "CTO",
+      "manifest": "manifests/cto.hire.json"
+    },
+    {
+      "slug": "product-manager",
+      "dept": "product",
+      "reports_to": "chief-of-staff",
+      "title": "Product Manager",
+      "manifest": "manifests/product-manager.hire.json"
+    },
+    {
+      "slug": "brand-director",
+      "dept": "brand",
+      "reports_to": "chief-of-staff",
+      "title": "Brand Director",
+      "manifest": "manifests/brand-director.hire.json"
+    },
+    {
+      "slug": "operations-lead",
+      "dept": "operations",
+      "reports_to": "chief-of-staff",
+      "title": "Operations Lead",
+      "manifest": "manifests/operations-lead.hire.json"
+    },
+    {
+      "slug": "frontend-engineer",
+      "dept": "engineering",
+      "reports_to": "cto",
+      "title": "Frontend Engineer",
+      "manifest": "manifests/frontend-engineer.hire.json"
+    },
+    {
+      "slug": "backend-engineer",
+      "dept": "engineering",
+      "reports_to": "cto",
+      "title": "Backend Engineer",
+      "manifest": "manifests/backend-engineer.hire.json"
+    },
+    {
+      "slug": "mobile-engineer",
+      "dept": "engineering",
+      "reports_to": "cto",
+      "title": "Mobile Engineer",
+      "manifest": "manifests/mobile-engineer.hire.json"
+    },
+    {
+      "slug": "devops-engineer",
+      "dept": "engineering",
+      "reports_to": "cto",
+      "title": "DevOps Engineer",
+      "manifest": "manifests/devops-engineer.hire.json"
+    },
+    {
+      "slug": "qa-engineer",
+      "dept": "engineering",
+      "reports_to": "cto",
+      "title": "QA Engineer",
+      "manifest": "manifests/qa-engineer.hire.json"
+    },
+    {
+      "slug": "security-engineer",
+      "dept": "engineering",
+      "reports_to": "cto",
+      "title": "Security Engineer",
+      "manifest": "manifests/security-engineer.hire.json"
+    },
+    {
+      "slug": "code-reviewer",
+      "dept": "engineering",
+      "reports_to": "cto",
+      "title": "Code Reviewer",
+      "manifest": "manifests/code-reviewer.hire.json"
+    },
+    {
+      "slug": "data-engineer",
+      "dept": "engineering",
+      "reports_to": "cto",
+      "title": "Data Engineer",
+      "manifest": "manifests/data-engineer.hire.json"
+    },
+    {
+      "slug": "ux-designer",
+      "dept": "product",
+      "reports_to": "product-manager",
+      "title": "UX/UI Designer",
+      "manifest": "manifests/ux-designer.hire.json"
+    },
+    {
+      "slug": "technical-writer",
+      "dept": "product",
+      "reports_to": "product-manager",
+      "title": "Technical Writer",
+      "manifest": "manifests/technical-writer.hire.json"
+    },
+    {
+      "slug": "research-analyst",
+      "dept": "product",
+      "reports_to": "product-manager",
+      "title": "Research Analyst",
+      "manifest": "manifests/research-analyst.hire.json"
+    },
+    {
+      "slug": "brand-designer",
+      "dept": "brand",
+      "reports_to": "brand-director",
+      "title": "Brand Designer",
+      "manifest": "manifests/brand-designer.hire.json"
+    },
+    {
+      "slug": "content-writer",
+      "dept": "brand",
+      "reports_to": "brand-director",
+      "title": "Content Writer",
+      "manifest": "manifests/content-writer.hire.json"
+    },
+    {
+      "slug": "seo-specialist",
+      "dept": "brand",
+      "reports_to": "brand-director",
+      "title": "SEO Specialist",
+      "manifest": "manifests/seo-specialist.hire.json"
+    },
+    {
+      "slug": "social-media-manager",
+      "dept": "brand",
+      "reports_to": "brand-director",
+      "title": "Social Media Manager",
+      "manifest": "manifests/social-media-manager.hire.json"
+    },
+    {
+      "slug": "growth-marketer",
+      "dept": "brand",
+      "reports_to": "brand-director",
+      "title": "Growth Marketer",
+      "manifest": "manifests/growth-marketer.hire.json"
+    },
+    {
+      "slug": "pr-communications",
+      "dept": "brand",
+      "reports_to": "brand-director",
+      "title": "PR & Communications",
+      "manifest": "manifests/pr-communications.hire.json"
+    },
+    {
+      "slug": "sales-lead",
+      "dept": "customers",
+      "reports_to": "chief-of-staff",
+      "title": "Sales Lead",
+      "manifest": "manifests/sales-lead.hire.json"
+    },
+    {
+      "slug": "customer-support",
+      "dept": "customers",
+      "reports_to": "customer-success",
+      "title": "Customer Support",
+      "manifest": "manifests/customer-support.hire.json"
+    },
+    {
+      "slug": "customer-success",
+      "dept": "customers",
+      "reports_to": "chief-of-staff",
+      "title": "Customer Success Manager",
+      "manifest": "manifests/customer-success.hire.json"
+    },
+    {
+      "slug": "finance-manager",
+      "dept": "operations",
+      "reports_to": "operations-lead",
+      "title": "Finance Manager",
+      "manifest": "manifests/finance-manager.hire.json"
+    },
+    {
+      "slug": "legal-compliance",
+      "dept": "operations",
+      "reports_to": "operations-lead",
+      "title": "Legal & Compliance",
+      "manifest": "manifests/legal-compliance.hire.json"
+    },
+    {
+      "slug": "people-ops",
+      "dept": "operations",
+      "reports_to": "operations-lead",
+      "title": "People Ops",
+      "manifest": "manifests/people-ops.hire.json"
+    }
+  ],
+  "approvalGates": [
+    {
+      "id": "G1",
+      "name": "Production release",
+      "covers": "Deploying to production, app store submission, publishing release notes"
+    },
+    {
+      "id": "G2",
+      "name": "Spending money",
+      "covers": "Any spend: subscriptions, cloud upgrades, ads budget, refunds, credits, vendors"
+    },
+    {
+      "id": "G3",
+      "name": "Public publishing",
+      "covers": "Blog posts, social posts, website copy, ads, announcements going live"
+    },
+    {
+      "id": "G4",
+      "name": "Brand identity",
+      "covers": "Name, logo, colors, typography, core positioning or tagline"
+    },
+    {
+      "id": "G5",
+      "name": "External communication",
+      "covers": "Emails or messages to customers, prospects, press, partners, incident disclosure"
+    },
+    {
+      "id": "G6",
+      "name": "Legal, pricing and policy",
+      "covers": "Contracts, terms, privacy policy, pricing, discounts, legal commitments"
+    },
+    {
+      "id": "G7",
+      "name": "Destructive or irreversible",
+      "covers": "Deleting data, production migrations, force-push, secrets rotation, access and permissions"
+    },
+    {
+      "id": "G8",
+      "name": "Team and scope",
+      "covers": "Adding, removing or changing agents; roadmap commitments and scope changes"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "W1",
+      "name": "Feature delivery",
+      "trigger": "Founder idea, roadmap item or recurring customer pain",
+      "owner": "product-manager",
+      "steps": [
+        {
+          "owner": "product-manager",
+          "do": "Write the one-page spec with acceptance criteria and success metric"
+        },
+        {
+          "owner": "chief-of-staff",
+          "do": "Confirm it is on the committed roadmap; otherwise raise a scope change",
+          "gate": "G8"
+        },
+        {
+          "owner": "ux-designer",
+          "do": "Design the flow and every state; Product Manager picks a direction"
+        },
+        {
+          "owner": "cto",
+          "do": "Write the technical plan and split it into tasks"
+        },
+        {
+          "owner": "frontend-engineer",
+          "do": "Build UI in a branch with tests"
+        },
+        {
+          "owner": "backend-engineer",
+          "do": "Build API and data changes with tests and reversible migrations"
+        },
+        {
+          "owner": "code-reviewer",
+          "do": "Review every pull request"
+        },
+        {
+          "owner": "security-engineer",
+          "do": "Review anything touching auth, payments or personal data"
+        },
+        {
+          "owner": "qa-engineer",
+          "do": "Test in staging and give written sign-off"
+        },
+        {
+          "owner": "technical-writer",
+          "do": "Update docs and draft release notes"
+        },
+        {
+          "owner": "cto",
+          "do": "Raise the release approval with changelog, evidence and rollback plan",
+          "gate": "G1"
+        },
+        {
+          "owner": "devops-engineer",
+          "do": "Deploy to production after approval and watch metrics"
+        },
+        {
+          "owner": "brand-director",
+          "do": "Announce the feature through W3",
+          "gate": "G3"
+        },
+        {
+          "owner": "product-manager",
+          "do": "Check the success metric at one week and one month"
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "name": "Incident response",
+      "trigger": "Alert, outage, error spike or security report",
+      "owner": "devops-engineer",
+      "steps": [
+        {
+          "owner": "devops-engineer",
+          "do": "Acknowledge, assess severity and stabilize (roll back if needed)"
+        },
+        {
+          "owner": "chief-of-staff",
+          "do": "Notify the founder immediately for severity 1 or 2"
+        },
+        {
+          "owner": "security-engineer",
+          "do": "Lead instead of DevOps if it may be a breach; contain and preserve evidence"
+        },
+        {
+          "owner": "backend-engineer",
+          "do": "Find and fix the root cause"
+        },
+        {
+          "owner": "devops-engineer",
+          "do": "Production fix or rollback",
+          "gate": "G1"
+        },
+        {
+          "owner": "pr-communications",
+          "do": "Draft customer and status page message",
+          "gate": "G5"
+        },
+        {
+          "owner": "devops-engineer",
+          "do": "Write a blameless postmortem with follow-up tasks within 48 hours"
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "name": "Brand campaign",
+      "trigger": "Launch, quarterly plan or growth opportunity",
+      "owner": "brand-director",
+      "steps": [
+        {
+          "owner": "brand-director",
+          "do": "Write the campaign brief: objective, audience, message, channels, budget, KPI"
+        },
+        {
+          "owner": "research-analyst",
+          "do": "Supply audience and competitor insight"
+        },
+        {
+          "owner": "content-writer",
+          "do": "Write copy for every channel"
+        },
+        {
+          "owner": "seo-specialist",
+          "do": "Optimize web content for search"
+        },
+        {
+          "owner": "brand-designer",
+          "do": "Produce all visual assets"
+        },
+        {
+          "owner": "legal-compliance",
+          "do": "Check claims and advertising rules"
+        },
+        {
+          "owner": "growth-marketer",
+          "do": "Plan paid budget if any",
+          "gate": "G2"
+        },
+        {
+          "owner": "brand-director",
+          "do": "Send the complete campaign package for approval",
+          "gate": "G3"
+        },
+        {
+          "owner": "social-media-manager",
+          "do": "Schedule approved posts"
+        },
+        {
+          "owner": "growth-marketer",
+          "do": "Launch approved ads and track results"
+        },
+        {
+          "owner": "data-engineer",
+          "do": "Report results against the KPI"
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "name": "Weekly content engine",
+      "trigger": "Every Monday",
+      "owner": "seo-specialist",
+      "steps": [
+        {
+          "owner": "seo-specialist",
+          "do": "Pick this week's topics from the keyword map and write briefs"
+        },
+        {
+          "owner": "content-writer",
+          "do": "Draft articles"
+        },
+        {
+          "owner": "seo-specialist",
+          "do": "Review for search intent and on-page SEO"
+        },
+        {
+          "owner": "brand-designer",
+          "do": "Create header and social images"
+        },
+        {
+          "owner": "brand-director",
+          "do": "Review voice and accuracy"
+        },
+        {
+          "owner": "brand-director",
+          "do": "Batch the week's content for approval",
+          "gate": "G3"
+        },
+        {
+          "owner": "frontend-engineer",
+          "do": "Publish approved posts on the site"
+        },
+        {
+          "owner": "social-media-manager",
+          "do": "Share approved posts on social"
+        }
+      ]
+    },
+    {
+      "id": "W5",
+      "name": "Customer support loop",
+      "trigger": "New ticket or message",
+      "owner": "customer-support",
+      "steps": [
+        {
+          "owner": "customer-support",
+          "do": "Triage by urgency and type"
+        },
+        {
+          "owner": "customer-support",
+          "do": "Answer from the help center under the standing support approval, or draft for approval",
+          "gate": "G5"
+        },
+        {
+          "owner": "qa-engineer",
+          "do": "Reproduce bugs and prioritize them for engineering"
+        },
+        {
+          "owner": "customer-success",
+          "do": "Handle refunds, credits and at-risk accounts",
+          "gate": "G2"
+        },
+        {
+          "owner": "product-manager",
+          "do": "Review feature requests and pain counts weekly"
+        },
+        {
+          "owner": "technical-writer",
+          "do": "Turn top questions into help articles"
+        }
+      ]
+    },
+    {
+      "id": "W6",
+      "name": "Sales pipeline",
+      "trigger": "New lead or inbound request",
+      "owner": "sales-lead",
+      "steps": [
+        {
+          "owner": "research-analyst",
+          "do": "Research the prospect"
+        },
+        {
+          "owner": "sales-lead",
+          "do": "Qualify and draft outreach",
+          "gate": "G5"
+        },
+        {
+          "owner": "sales-lead",
+          "do": "Run the demo with the Product Manager"
+        },
+        {
+          "owner": "sales-lead",
+          "do": "Draft proposal and pricing",
+          "gate": "G6"
+        },
+        {
+          "owner": "legal-compliance",
+          "do": "Review the contract",
+          "gate": "G6"
+        },
+        {
+          "owner": "customer-success",
+          "do": "Take the handoff and run onboarding"
+        }
+      ]
+    },
+    {
+      "id": "W7",
+      "name": "Monthly close",
+      "trigger": "First working day of the month",
+      "owner": "finance-manager",
+      "steps": [
+        {
+          "owner": "finance-manager",
+          "do": "Reconcile the books and close the month"
+        },
+        {
+          "owner": "devops-engineer",
+          "do": "Report cloud and tooling cost"
+        },
+        {
+          "owner": "operations-lead",
+          "do": "Review subscriptions and upcoming renewals",
+          "gate": "G2"
+        },
+        {
+          "owner": "finance-manager",
+          "do": "Write the monthly finance report: revenue, costs, burn, runway"
+        },
+        {
+          "owner": "chief-of-staff",
+          "do": "Include it in the founder's report"
+        }
+      ]
+    },
+    {
+      "id": "W8",
+      "name": "Hiring an agent",
+      "trigger": "Work with no owner, or an agent at its cap every week",
+      "owner": "people-ops",
+      "steps": [
+        {
+          "owner": "people-ops",
+          "do": "Write the role proposal and hire manifest"
+        },
+        {
+          "owner": "chief-of-staff",
+          "do": "Confirm need and budget",
+          "gate": "G8"
+        },
+        {
+          "owner": "people-ops",
+          "do": "After approval, the founder imports and spawns the hire by hand"
+        },
+        {
+          "owner": "people-ops",
+          "do": "Send the welcome brief and add the role to org.json"
+        }
+      ]
+    },
+    {
+      "id": "W9",
+      "name": "Daily standup and weekly report",
+      "trigger": "Every morning; every Friday",
+      "owner": "chief-of-staff",
+      "steps": [
+        {
+          "owner": "chief-of-staff",
+          "do": "Collect yesterday, today and blockers from each department lead"
+        },
+        {
+          "owner": "data-engineer",
+          "do": "Send the metrics snapshot"
+        },
+        {
+          "owner": "chief-of-staff",
+          "do": "Send the founder the standup and the list of approvals waiting"
+        },
+        {
+          "owner": "chief-of-staff",
+          "do": "On Friday send the weekly report: OKRs, shipped, metrics, spend, risks, decisions"
+        }
+      ]
+    },
+    {
+      "id": "W10",
+      "name": "Security and compliance review",
+      "trigger": "Every week (security) and every quarter (compliance)",
+      "owner": "security-engineer",
+      "steps": [
+        {
+          "owner": "security-engineer",
+          "do": "Run dependency and secret scans and triage findings"
+        },
+        {
+          "owner": "security-engineer",
+          "do": "Rotate secrets or change access where needed",
+          "gate": "G7"
+        },
+        {
+          "owner": "legal-compliance",
+          "do": "Review policies against what the product does"
+        },
+        {
+          "owner": "legal-compliance",
+          "do": "Propose policy updates",
+          "gate": "G6"
+        },
+        {
+          "owner": "chief-of-staff",
+          "do": "Report status to the founder"
+        }
+      ]
+    }
+  ]
+}
